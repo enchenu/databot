@@ -13,7 +13,9 @@ services:
     ports:
       - '9292:9292'
     volumes:
-      - '.:/databot'
+      - '.:/onebitbot'
+    environment:
+      - LANG=C.UTF-8
 
 volumes:
   postgres:

@@ -8,7 +8,6 @@ gem 'pg_search'
 
 group :development do
  gem "tux"
-
 end
 
 group :test do
